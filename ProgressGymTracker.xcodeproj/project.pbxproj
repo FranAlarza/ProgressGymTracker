@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		260DE26B2CEE70E300D7A15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260DE2522CEE70E100D7A15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260DE2592CEE70E100D7A15A;
+			remoteInfo = ProgressGymTracker;
+		};
+		260DE2752CEE70E300D7A15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260DE2522CEE70E100D7A15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260DE2592CEE70E100D7A15A;
+			remoteInfo = ProgressGymTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260DE25A2CEE70E100D7A15A /* ProgressGymTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressGymTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260DE26A2CEE70E300D7A15A /* ProgressGymTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressGymTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260DE2742CEE70E300D7A15A /* ProgressGymTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressGymTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		260DE25C2CEE70E100D7A15A /* ProgressGymTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgressGymTracker;
+			sourceTree = "<group>";
+		};
+		260DE26D2CEE70E300D7A15A /* ProgressGymTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgressGymTrackerTests;
+			sourceTree = "<group>";
+		};
+		260DE2772CEE70E300D7A15A /* ProgressGymTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgressGymTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260DE2572CEE70E100D7A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2672CEE70E300D7A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2712CEE70E300D7A15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260DE2512CEE70E100D7A15A = {
+			isa = PBXGroup;
+			children = (
+				260DE25C2CEE70E100D7A15A /* ProgressGymTracker */,
+				260DE26D2CEE70E300D7A15A /* ProgressGymTrackerTests */,
+				260DE2772CEE70E300D7A15A /* ProgressGymTrackerUITests */,
+				260DE25B2CEE70E100D7A15A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260DE25B2CEE70E100D7A15A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260DE25A2CEE70E100D7A15A /* ProgressGymTracker.app */,
+				260DE26A2CEE70E300D7A15A /* ProgressGymTrackerTests.xctest */,
+				260DE2742CEE70E300D7A15A /* ProgressGymTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260DE2592CEE70E100D7A15A /* ProgressGymTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260DE27E2CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTracker" */;
+			buildPhases = (
+				260DE2562CEE70E100D7A15A /* Sources */,
+				260DE2572CEE70E100D7A15A /* Frameworks */,
+				260DE2582CEE70E100D7A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				260DE25C2CEE70E100D7A15A /* ProgressGymTracker */,
+			);
+			name = ProgressGymTracker;
+			packageProductDependencies = (
+			);
+			productName = ProgressGymTracker;
+			productReference = 260DE25A2CEE70E100D7A15A /* ProgressGymTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		260DE2692CEE70E300D7A15A /* ProgressGymTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260DE2812CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTrackerTests" */;
+			buildPhases = (
+				260DE2662CEE70E300D7A15A /* Sources */,
+				260DE2672CEE70E300D7A15A /* Frameworks */,
+				260DE2682CEE70E300D7A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260DE26C2CEE70E300D7A15A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				260DE26D2CEE70E300D7A15A /* ProgressGymTrackerTests */,
+			);
+			name = ProgressGymTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = ProgressGymTrackerTests;
+			productReference = 260DE26A2CEE70E300D7A15A /* ProgressGymTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		260DE2732CEE70E300D7A15A /* ProgressGymTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260DE2842CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTrackerUITests" */;
+			buildPhases = (
+				260DE2702CEE70E300D7A15A /* Sources */,
+				260DE2712CEE70E300D7A15A /* Frameworks */,
+				260DE2722CEE70E300D7A15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260DE2762CEE70E300D7A15A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				260DE2772CEE70E300D7A15A /* ProgressGymTrackerUITests */,
+			);
+			name = ProgressGymTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = ProgressGymTrackerUITests;
+			productReference = 260DE2742CEE70E300D7A15A /* ProgressGymTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260DE2522CEE70E100D7A15A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					260DE2592CEE70E100D7A15A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					260DE2692CEE70E300D7A15A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 260DE2592CEE70E100D7A15A;
+					};
+					260DE2732CEE70E300D7A15A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 260DE2592CEE70E100D7A15A;
+					};
+				};
+			};
+			buildConfigurationList = 260DE2552CEE70E100D7A15A /* Build configuration list for PBXProject "ProgressGymTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 260DE2512CEE70E100D7A15A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 260DE25B2CEE70E100D7A15A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260DE2592CEE70E100D7A15A /* ProgressGymTracker */,
+				260DE2692CEE70E300D7A15A /* ProgressGymTrackerTests */,
+				260DE2732CEE70E300D7A15A /* ProgressGymTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260DE2582CEE70E100D7A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2682CEE70E300D7A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2722CEE70E300D7A15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260DE2562CEE70E100D7A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2662CEE70E300D7A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260DE2702CEE70E300D7A15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260DE26C2CEE70E300D7A15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260DE2592CEE70E100D7A15A /* ProgressGymTracker */;
+			targetProxy = 260DE26B2CEE70E300D7A15A /* PBXContainerItemProxy */;
+		};
+		260DE2762CEE70E300D7A15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260DE2592CEE70E100D7A15A /* ProgressGymTracker */;
+			targetProxy = 260DE2752CEE70E300D7A15A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		260DE27C2CEE70E300D7A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		260DE27D2CEE70E300D7A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		260DE27F2CEE70E300D7A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressGymTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		260DE2802CEE70E300D7A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressGymTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		260DE2822CEE70E300D7A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressGymTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgressGymTracker";
+			};
+			name = Debug;
+		};
+		260DE2832CEE70E300D7A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressGymTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgressGymTracker";
+			};
+			name = Release;
+		};
+		260DE2852CEE70E300D7A15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgressGymTracker;
+			};
+			name = Debug;
+		};
+		260DE2862CEE70E300D7A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9QA4T4B5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goatcompany.ProgressGymTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgressGymTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260DE2552CEE70E100D7A15A /* Build configuration list for PBXProject "ProgressGymTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DE27C2CEE70E300D7A15A /* Debug */,
+				260DE27D2CEE70E300D7A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260DE27E2CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DE27F2CEE70E300D7A15A /* Debug */,
+				260DE2802CEE70E300D7A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260DE2812CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DE2822CEE70E300D7A15A /* Debug */,
+				260DE2832CEE70E300D7A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260DE2842CEE70E300D7A15A /* Build configuration list for PBXNativeTarget "ProgressGymTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DE2852CEE70E300D7A15A /* Debug */,
+				260DE2862CEE70E300D7A15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260DE2522CEE70E100D7A15A /* Project object */;
+}
